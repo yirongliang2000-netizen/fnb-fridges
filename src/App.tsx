@@ -304,7 +304,7 @@ Preferred delivery date:
 Location: 
 
 Thanks!`);
-    return `mailto:sales@yourdomain.sg?subject=${subject}&body=${body}`;
+   return `mailto:sales@yourdomain.sg?subject=${subject}&body=${body}`;
   }
 
   return (
@@ -551,3 +551,8 @@ Thanks!`);
     </div>
   );
 }
+git add .
+git commit -m "Fix: unterminated string in App.tsx"
+git push
+
+
